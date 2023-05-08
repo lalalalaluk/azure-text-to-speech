@@ -1,0 +1,5 @@
+<speak version="1.0" xmlns="https://www.w3.org/2001/10/synthesis" xml:lang="zh-TW">
+    <voice name="zh-TW-HsiaoChenNeural">
+        現在試試看，當我說 <break time="1000ms"/>  <prosody rate="0.6">Are you ready</prosody><break time="1000ms"/> 之後，你要回我說 <break time="1000ms"/><prosody rate="0.6">I'm ready</prosody><break time="1000ms"/>
+    </voice>
+</speak>

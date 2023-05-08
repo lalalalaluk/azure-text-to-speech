@@ -1,0 +1,5 @@
+<speak version="1.0" xmlns="https://www.w3.org/2001/10/synthesis" xml:lang="zh-TW">
+    <voice name="zh-TW-HsiaoChenNeural">
+        <prosody rate="1">好像哪邊不對，有可能是講得太小聲了，再說一次</prosody><prosody rate="1" contour="(10%,+50Hz) (50%,+50Hz) (80%,+80Hz)">試試看吧?</prosody>
+    </voice>
+</speak>

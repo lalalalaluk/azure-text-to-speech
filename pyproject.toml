@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "text-to-speech"
+version = "0.1.0"
+description = ""
+authors = ["luk <lalaluk5@ntub.edu.tw>"]
+readme = "README.md"
+packages = [{include = "text_to_speech"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+azure-cognitiveservices-speech = "^1.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
