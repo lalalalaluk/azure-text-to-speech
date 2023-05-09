@@ -1,0 +1,5 @@
+<speak version="1.0" xmlns="https://www.w3.org/2001/10/synthesis" xml:lang="zh-TW">
+    <voice name="zh-TW-YunJheNeural">
+<prosody rate="1">你說得沒錯</prosody><prosody rate="0.8"> </prosody><prosody rate="1">橘子是一種很好吃的食物</prosody>
+    </voice>
+</speak>

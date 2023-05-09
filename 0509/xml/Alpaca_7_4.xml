@@ -1,0 +1,5 @@
+<speak version="1.0" xmlns="https://www.w3.org/2001/10/synthesis" xml:lang="zh-TW">
+    <voice name="zh-TW-HsiaoChenNeural">
+<prosody rate="1">當別人跟你說</prosody><prosody rate="0.8"> hi</prosody><prosody rate="1">，你可以回他</prosody><prosody rate="0.8"> hello</prosody><prosody rate="1">。</prosody>
+    </voice>
+</speak>

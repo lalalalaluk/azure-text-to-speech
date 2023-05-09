@@ -1,0 +1,5 @@
+<speak version="1.0" xmlns="https://www.w3.org/2001/10/synthesis" xml:lang="zh-TW">
+    <voice name="zh-TW-HsiaoChenNeural">
+<prosody rate="1">現在試試看，當我說</prosody><prosody rate="0.8"> Are you ready </prosody><prosody rate="1">之後，你要回我說</prosody><prosody rate="0.8"> I'm ready</prosody>
+    </voice>
+</speak>

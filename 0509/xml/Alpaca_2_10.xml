@@ -1,0 +1,5 @@
+<speak version="1.0" xmlns="https://www.w3.org/2001/10/synthesis" xml:lang="zh-TW">
+    <voice name="zh-TW-HsiaoChenNeural">
+<prosody rate="0.8">I'm ready </prosody><prosody rate="1">是我準備好了的意思</prosody>
+    </voice>
+</speak>

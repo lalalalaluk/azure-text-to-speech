@@ -1,0 +1,5 @@
+<speak version="1.0" xmlns="https://www.w3.org/2001/10/synthesis" xml:lang="zh-TW">
+    <voice name="zh-TW-HsiaoChenNeural">
+<prosody rate="0.8">nice to meet you </prosody><prosody rate="1">意思是初次見面，很高興認識你</prosody>
+    </voice>
+</speak>
