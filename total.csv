@@ -1,0 +1,493 @@
+﻿Database
+Name,Version,Author,Description,Emphasis1,Emphasis2,Emphasis3,Emphasis4
+MyDialogueDatabase,,,,#ffffffff ---,#ff0000ff ---,#00ff00ff ---,#0000ffff ---
+Global User Script
+
+Actors
+ID,Portrait,AltPortraits,SpritePortrait,AltSpritePortraits,Name,Pictures,Description,IsPlayer,Name zh-TW
+Number,Special,Special,Special,Special,Text,Files,Text,Boolean,Localization
+5,Assets/MyGame/Assets/Charactor/wild goat.png,[],,[],Wild Goat,[],,False,Wild Goat
+3,Assets/MyGame/Assets/Charactor/img-npc-boar.png,[Assets/MyGame/Assets/Charactor/img-npc-boar-smile.png],,[],Black Boar,[],,False,Black Boar
+4,Assets/MyGame/Assets/Charactor/img-sheep.png,[Assets/MyGame/Assets/Charactor/img-npc-sheep.png],,[],Sheep Baby,[],,True,Sheep Baby
+6,Assets/MyGame/Assets/Charactor/mineboar.png,[],,[],Miner Boar,[],,False,Miner Boar
+1,Assets/MyGame/Assets/Charactor/雞1.png,[],,[],Chicken,[],,False,Chicken
+2,Assets/MyGame/Assets/Charactor/img-npc-goat.png,[Assets/MyGame/Assets/Charactor/img-npc-goat-smile.png],Assets/MyGame/Assets/Charactor/img-npc-goat.png,[Assets/MyGame/Assets/Charactor/img-npc-goat-smile.png],Alpaca,[],,False,Alpaca
+Items
+ID
+Number
+Locations
+ID
+Number
+Variables
+ID,Name,Initial Value,Description,InitialValueType
+Number,Text,Text,Text,Text
+1,Alert,,,Text
+2,SpeakContent,,,Text
+Conversations
+ID,Title,Description,Actor,Conversant,Title zh-TW,Title ja-JP,Title es-ES,Title zh-CN,Title ko-KR,Overrides
+Number,Text,Text,Actor,Actor,Localization,Localization,Localization,Localization,Localization,JSON
+1,test,,2,4,test,,,,,"{""useOverrides"":false,""overrideSubtitleSettings"":false,""showNPCSubtitlesDuringLine"":true,""showNPCSubtitlesWithResponses"":true,""showPCSubtitlesDuringLine"":false,""skipPCSubtitleAfterResponseMenu"":false,""subtitleCharsPerSecond"":30.0,""minSubtitleSeconds"":2.0,""continueButton"":0,""overrideSequenceSettings"":false,""defaultSequence"":"""",""defaultPlayerSequence"":"""",""defaultResponseMenuSequence"":"""",""overrideInputSettings"":false,""alwaysForceResponseMenu"":true,""includeInvalidEntries"":false,""responseTimeout"":0.0,""emTagForOldResponses"":0,""emTagForInvalidResponses"":0,""cancelSubtitle"":{""key"":27,""buttonName"":""""},""cancelConversation"":{""key"":27,""buttonName"":""""}}"
+2,Level1 Alpaca,,2,4,Level2 Alpaca,,,,,"{""useOverrides"":false,""overrideSubtitleSettings"":false,""showNPCSubtitlesDuringLine"":true,""showNPCSubtitlesWithResponses"":true,""showPCSubtitlesDuringLine"":false,""skipPCSubtitleAfterResponseMenu"":false,""subtitleCharsPerSecond"":30.0,""minSubtitleSeconds"":2.0,""continueButton"":0,""overrideSequenceSettings"":false,""defaultSequence"":"""",""defaultPlayerSequence"":"""",""defaultResponseMenuSequence"":"""",""overrideInputSettings"":false,""alwaysForceResponseMenu"":true,""includeInvalidEntries"":false,""responseTimeout"":0.0,""emTagForOldResponses"":0,""emTagForInvalidResponses"":0,""cancelSubtitle"":{""key"":27,""buttonName"":""""},""cancelConversation"":{""key"":27,""buttonName"":""""}}"
+4,Level2 Wild Goat,,1,2,Level2 Wild Goat,,,,,"{""useOverrides"":false,""overrideSubtitleSettings"":false,""showNPCSubtitlesDuringLine"":true,""showNPCSubtitlesWithResponses"":true,""showPCSubtitlesDuringLine"":false,""skipPCSubtitleAfterResponseMenu"":false,""subtitleCharsPerSecond"":30.0,""minSubtitleSeconds"":2.0,""continueButton"":0,""overrideSequenceSettings"":false,""defaultSequence"":"""",""defaultPlayerSequence"":"""",""defaultResponseMenuSequence"":"""",""overrideInputSettings"":false,""alwaysForceResponseMenu"":true,""includeInvalidEntries"":false,""responseTimeout"":0.0,""emTagForOldResponses"":0,""emTagForInvalidResponses"":0,""cancelSubtitle"":{""key"":27,""buttonName"":""""},""cancelConversation"":{""key"":27,""buttonName"":""""}}"
+5,Level2 Black Boar,,3,4,Level3 Miner Boar,,,,,"{""useOverrides"":false,""overrideSubtitleSettings"":false,""showNPCSubtitlesDuringLine"":true,""showNPCSubtitlesWithResponses"":true,""showPCSubtitlesDuringLine"":false,""skipPCSubtitleAfterResponseMenu"":false,""subtitleCharsPerSecond"":30.0,""minSubtitleSeconds"":2.0,""continueButton"":0,""overrideSequenceSettings"":false,""defaultSequence"":"""",""defaultPlayerSequence"":"""",""defaultResponseMenuSequence"":"""",""overrideInputSettings"":false,""alwaysForceResponseMenu"":true,""includeInvalidEntries"":false,""responseTimeout"":0.0,""emTagForOldResponses"":0,""emTagForInvalidResponses"":0,""cancelSubtitle"":{""key"":27,""buttonName"":""""},""cancelConversation"":{""key"":27,""buttonName"":""""}}"
+7,Level2 Alpaca,,2,4,Level3 Alpaca,,,,,"{""useOverrides"":false,""overrideSubtitleSettings"":false,""showNPCSubtitlesDuringLine"":true,""showNPCSubtitlesWithResponses"":true,""showPCSubtitlesDuringLine"":false,""skipPCSubtitleAfterResponseMenu"":false,""subtitleCharsPerSecond"":30.0,""minSubtitleSeconds"":2.0,""continueButton"":0,""overrideSequenceSettings"":false,""defaultSequence"":"""",""defaultPlayerSequence"":"""",""defaultResponseMenuSequence"":"""",""overrideInputSettings"":false,""alwaysForceResponseMenu"":true,""includeInvalidEntries"":false,""responseTimeout"":0.0,""emTagForOldResponses"":0,""emTagForInvalidResponses"":0,""cancelSubtitle"":{""key"":27,""buttonName"":""""},""cancelConversation"":{""key"":27,""buttonName"":""""}}"
+8,Ai_test,,2,4,,,,,,"{""useOverrides"":false,""overrideSubtitleSettings"":false,""showNPCSubtitlesDuringLine"":true,""showNPCSubtitlesWithResponses"":true,""showPCSubtitlesDuringLine"":false,""skipPCSubtitleAfterResponseMenu"":false,""subtitleCharsPerSecond"":30.0,""minSubtitleSeconds"":2.0,""continueButton"":0,""overrideSequenceSettings"":false,""defaultSequence"":"""",""defaultPlayerSequence"":"""",""defaultResponseMenuSequence"":"""",""overrideInputSettings"":false,""alwaysForceResponseMenu"":true,""includeInvalidEntries"":false,""responseTimeout"":0.0,""emTagForOldResponses"":0,""emTagForInvalidResponses"":0,""cancelSubtitle"":{""key"":27,""buttonName"":""""},""cancelConversation"":{""key"":27,""buttonName"":""""}}"
+9,ai_test,,2,4,,,,,,"{""useOverrides"":false,""overrideSubtitleSettings"":false,""showNPCSubtitlesDuringLine"":true,""showNPCSubtitlesWithResponses"":true,""showPCSubtitlesDuringLine"":false,""skipPCSubtitleAfterResponseMenu"":false,""subtitleCharsPerSecond"":30.0,""minSubtitleSeconds"":2.0,""continueButton"":0,""overrideSequenceSettings"":false,""defaultSequence"":"""",""defaultPlayerSequence"":"""",""defaultResponseMenuSequence"":"""",""overrideInputSettings"":false,""alwaysForceResponseMenu"":true,""includeInvalidEntries"":false,""responseTimeout"":0.0,""emTagForOldResponses"":0,""emTagForInvalidResponses"":0,""cancelSubtitle"":{""key"":27,""buttonName"":""""},""cancelConversation"":{""key"":27,""buttonName"":""""}}"
+13,Level3 Alpaca,,2,4,,,,,,"{""useOverrides"":false,""overrideSubtitleSettings"":false,""showNPCSubtitlesDuringLine"":true,""showNPCSubtitlesWithResponses"":true,""showPCSubtitlesDuringLine"":false,""skipPCSubtitleAfterResponseMenu"":false,""subtitleCharsPerSecond"":30.0,""minSubtitleSeconds"":2.0,""continueButton"":0,""overrideSequenceSettings"":false,""defaultSequence"":"""",""defaultPlayerSequence"":"""",""defaultResponseMenuSequence"":"""",""overrideInputSettings"":false,""alwaysForceResponseMenu"":true,""includeInvalidEntries"":false,""responseTimeout"":0.0,""emTagForOldResponses"":0,""emTagForInvalidResponses"":0,""cancelSubtitle"":{""key"":27,""buttonName"":""""},""cancelConversation"":{""key"":27,""buttonName"":""""}}"
+14,Ai_test 1,,2,4,,,,,,"{""useOverrides"":false,""overrideSubtitleSettings"":false,""showNPCSubtitlesDuringLine"":true,""showNPCSubtitlesWithResponses"":true,""showPCSubtitlesDuringLine"":false,""skipPCSubtitleAfterResponseMenu"":false,""subtitleCharsPerSecond"":30.0,""minSubtitleSeconds"":2.0,""continueButton"":0,""overrideSequenceSettings"":false,""defaultSequence"":"""",""defaultPlayerSequence"":"""",""defaultResponseMenuSequence"":"""",""overrideInputSettings"":false,""alwaysForceResponseMenu"":true,""includeInvalidEntries"":false,""responseTimeout"":0.0,""emTagForOldResponses"":0,""emTagForInvalidResponses"":0,""cancelSubtitle"":{""key"":27,""buttonName"":""""},""cancelConversation"":{""key"":27,""buttonName"":""""}}"
+15,Level3 Black Boar,,3,4,Level3 Miner Boar,,,,,"{""useOverrides"":false,""overrideSubtitleSettings"":false,""showNPCSubtitlesDuringLine"":true,""showNPCSubtitlesWithResponses"":true,""showPCSubtitlesDuringLine"":false,""skipPCSubtitleAfterResponseMenu"":false,""subtitleCharsPerSecond"":30.0,""minSubtitleSeconds"":2.0,""continueButton"":0,""overrideSequenceSettings"":false,""defaultSequence"":"""",""defaultPlayerSequence"":"""",""defaultResponseMenuSequence"":"""",""overrideInputSettings"":false,""alwaysForceResponseMenu"":true,""includeInvalidEntries"":false,""responseTimeout"":0.0,""emTagForOldResponses"":0,""emTagForInvalidResponses"":0,""cancelSubtitle"":{""key"":27,""buttonName"":""""},""cancelConversation"":{""key"":27,""buttonName"":""""}}"
+DialogueEntries
+entrytag,ConvID,ID,Actor,Conversant,Title,MenuText,DialogueText,IsGroup,FalseConditionAction,ConditionPriority,Conditions,Script,Sequence,Description,ja-JP,ko-KR,es-ES,zh-CN,zh-TW,Response Menu Sequence,canvasRect
+Text,Number,Number,Number,Number,Text,Text,Text,Boolean,Special,Special,Text,Text,Text,Text,Localization,Localization,Localization,Localization,Localization,Text,Text
+Sheep_Baby_1_0,1,0,4,4,START,,,False,Block,Normal,,,None(),,,,,,,,108.6842;18.68422
+Alpaca_1_1,1,1,2,4,,,test,False,Block,Normal,,,,,,,,测试,測試,,112.0826;70.68422
+Alpaca_1_2,1,2,2,4,,,,False,Block,Normal,,,"Rec(Please say test, SpeakContent , test [unk]);\nSetActive(My Backtrack Button, false);\nSetContinueMode(false);",,,,,,,,111.8349;120.1651
+Alpaca_1_3,1,3,2,4,,,,False,Block,Normal,,,SetContinueMode(true);\nContinue(),,,,,,,,112;173
+Alpaca_1_4,1,4,2,4,,,Speak Success,False,Block,Normal,"Variable[""SpeakContent""] == ""test""",,"SetActive(My Backtrack Button, false);\n{{default}}",,,,,说出成功,說出成功,,18.43119;239.7523
+Alpaca_1_5,1,5,2,4,,,Finish,False,Block,Normal,,,"SetActive(My Backtrack Button, true);\n{{default}}",,,,,完成,完成,,16.59632;318.4863
+Alpaca_1_6,1,6,2,4,,,Speak Fail,False,Block,Normal,"Variable[""SpeakContent""] ==  """";",,"SetActive(My Backtrack Button, false);\n{{default}}",,,,,说失败,講失敗,,214.6316;236.6842
+Sheep_Baby_2_0,2,0,4,4,START,,,False,Block,Normal,,,None(),,,,,,,,622.4996;54.99998
+Alpaca_2_1,2,1,2,4,,,遊玩這個遊戲，請記得允許麥克風收音，才可以進行遊戲哦,False,Block,Normal,,,"SetActive(My Backtrack Button, false);\n{{default}}",,,,,玩这个游戏，请记得允许麦克风收音，才可以进行游戏哦。,遊玩這個遊戲，請記得允許麥克風收音，才可以進行遊戲哦,,621.9957;106.5625
+Alpaca_2_2,2,2,2,4,,,現在試試看，當我說 Are you ready 之後，你要回我說 I'm ready,False,Block,Normal,,,"SetActive(My Backtrack Button, true);\n{{default}}",,,,,现在试试看，当我说 Are you ready 之后，你要回我说 I'm ready。,現在試試看，當我說 Are you ready 之後，你要回我說 I'm ready,,622.4996;156.5625
+Alpaca_2_3,2,3,2,4,,,Are you ready?,False,Block,Normal,,,"SetActive(My Backtrack Button, true);\n{{default}}",,,,,你准备好了吗？,Are you ready?,,660.7995;432.422
+Alpaca_2_4,2,4,2,4,,,,False,Block,Normal,,,"Rec(""I'm ready"", SpeakContent , I'm ready [unk]);\nSetActive(My Backtrack Button, false);\nSetContinueMode(false);",,,,,,,,650.8382;510.5018
+Alpaca_2_5,2,5,2,4,,,,False,Block,Normal,,,SetContinueMode(true);\nContinue(),,,,,,,,657.3209;575.6486
+Alpaca_2_6,2,6,2,4,,,太好了! 請繼續往下前進吧!,False,Block,Normal,"Variable[""SpeakContent""] == ""imready""",,"SetActive(My Backtrack Button, false);\n{{default}};\nSetPortrait(Alpaca, pic=2);",,,,,太好了！请继续往下前进吧！,太好了! 請繼續往下前進吧!,,438.7729;644.7078
+Alpaca_2_7,2,7,2,4,,,好像哪邊不對，有可能是講得太小聲了，再說一次試試看?,False,Block,Normal,"Variable[""SpeakContent""] ~= ""imready"" and Variable[""SpeakContent""] ~= ""$help"" ",,"SetActive(My Backtrack Button, false);\n{{default}}",,,,,好像哪边不对哦，再说一次试试看?,好像哪邊不對，有可能是講得太小聲了，再說一次試試看?,,752.2439;654.3159
+Sheep_Baby_2_8,2,8,4,2,,,好的，謝謝你的指導!,False,Block,Normal,,,"SetPortrait(Alpaca, pic=1);\nSetActive(My Backtrack Button, true);\n{{default}}",,,,,好的，谢谢你的指导！,好的，謝謝你的指導!,,651.775;737.3129
+Alpaca_2_9,2,9,2,4,,,Are you ready 是你準備好了嗎的意思,False,Block,Normal,,,"SetPortrait(Alpaca, pic=1);\nSetActive(My Backtrack Button, true);\n{{default}}",,,,,你准备好了吗？,Are you ready 是你準備好了嗎的意思,,631.9863;226.4308
+Alpaca_2_10,2,10,2,4,,,I'm ready 是我準備好了的意思,False,Block,Normal,,,,,,,,我准备好了。,I'm ready 是我準備好了的意思,,636.8729;292.4149
+Alpaca_2_11,2,11,2,4,,,現在我們來試試看,False,Block,Normal,,,,,,,,现在我们来试试看。,現在我們來試試看,,638.4332;361.9538
+Alpaca_2_12,2,12,2,4,,,好的，我很樂意幫助你,False,Block,Normal,"(Variable[""SpeakContent""] == ""$help"") ",,"SetPortrait(Alpaca, pic=2);\nSetActive(My Backtrack Button, false);\nPlayAd();\n{{default}}",,,,,,好的，我很樂意幫助你,,947.7137;554.5458
+Wild_Goat_4_0,4,0,5,2,START,,,False,Block,Normal,,,None(),,,,,,,,30;20
+Wild_Goat_4_1,4,1,5,4,,,Hi,False,Block,Normal,,,MinusLife(speaker),,,,,嗨,嗨,,30;90
+Sheep_Baby_4_2,4,2,4,5,,,Hi,False,Block,Normal,,,MinusLife(speaker),,,,,你好,嗨,,36;153
+Black_Boar_5_0,5,0,3,4,START,,,False,Block,Normal,,,None(),,,,,,,,941.7612;2.428574
+Black_Boar_5_1,5,1,3,4,,,"Hi, nice to meet you",False,Block,Normal,x == 1,,,,,,,"Hi, nice to meet you","Hi, nice to meet you",,388.3375;261.4552
+Black_Boar_5_2,5,2,3,4,,,,False,Block,Normal,,,"Rec("" nice to meet you too"", SpeakContent , nice to meet you too [unk]);\nSetActive(My Backtrack Button, false);\nSetContinueMode(false);",,,,,,,,378.243;329.8825
+Black_Boar_5_3,5,3,3,4,,,,False,Block,Normal,,,SetContinueMode(true);\nContinue(),,,,,,,,372.243;397.6067
+Black_Boar_5_4,5,4,3,4,,,"you look so cute, happy to see you",False,Block,Normal,"Variable[""SpeakContent""] == ""nicetomeetyoutoo""",,"MinusLife(speaker);\nSetActive(My Backtrack Button, false);\n{{default}}",,,,,"you look so cute, happy to see you","you look so cute, happy to see you",,262.6815;477.5474
+Black_Boar_5_5,5,5,3,4,,,I don't know what you say,False,Block,Normal,"Variable[""SpeakContent""] ~= ""nicetomeetyoutoo"" and Variable[""SpeakContent""] ~= ""$help"" ",,"SetActive(My Backtrack Button, false);\n{{default}}",,,,,I don't know what you say,I don't know what you say,,502.0956;470.1583
+Black_Boar_5_6,5,6,3,4,,,,False,Block,Normal,	,x=math.random(3),Continue(),,,,,,,,939.3862;86.40605
+Black_Boar_5_7,5,7,3,4,,,,False,Block,Normal,,,None(),,,,,,,,939.3221;146.6266
+Black_Boar_5_8,5,8,3,4,,,Hi,False,Block,Normal,x == 2,,,,,,,Hi,Hi,,807.9965;250.6712
+Black_Boar_5_9,5,9,3,4,,,,False,Block,Normal,,,"Rec(""hello"", SpeakContent , hello [unk]);\nSetActive(My Backtrack Button, false);\nSetContinueMode(false);",,,,,,,,794.2089;339.8472
+Black_Boar_5_10,5,10,3,4,,,,False,Block,Normal,,,SetContinueMode(true);\nContinue(),,,,,,,,788.2089;405.8473
+Black_Boar_5_11,5,11,3,4,,,"you look so cute, happy to see you",False,Block,Normal,"Variable[""SpeakContent""] == ""hello""",,"MinusLife(speaker);\nSetActive(My Backtrack Button, false);\n{{default}}",,,,,"you look so cute, happy to see you","you look so cute, happy to see you",,690.4846;471.4043
+Black_Boar_5_12,5,12,3,4,,,I don't know what you say,False,Block,Normal,"Variable[""SpeakContent""] ~= ""hello"" and Variable[""SpeakContent""] ~= ""$help"" ",,"SetActive(My Backtrack Button, false);\n{{default}}",,,,,I don't know what you say,I don't know what you say,,933.5789;481.8473
+Black_Boar_5_13,5,13,3,4,,,How are you?,False,Block,Normal,x == 3,,,,,,,How are you?,How are you?,,1240.274;248.5965
+Black_Boar_5_14,5,14,3,4,,,,False,Block,Normal,,,"Rec(""I'm good thank you"", SpeakContent , I'm good thank you [unk]);\nSetActive(My Backtrack Button, false);\nSetContinueMode(false);",,,,,,,,1241.772;339.4967
+Black_Boar_5_15,5,15,3,4,,,,False,Block,Normal,,,SetContinueMode(true);\nContinue(),,,,,,,,1234.132;402.0484
+Black_Boar_5_16,5,16,3,4,,,"you look so cute, happy to see you",False,Block,Normal,"Variable[""SpeakContent""] == ""imgoodthankyou""",,"MinusLife(speaker);\nSetActive(My Backtrack Button, false);\n{{default}}",,,,,"you look so cute, happy to see you","you look so cute, happy to see you",,1141.496;469.8173
+Black_Boar_5_17,5,17,3,4,,,I don't know what you say,False,Block,Normal,"Variable[""SpeakContent""] ~= ""imgoodthankyou"" and Variable[""SpeakContent""] ~= ""$help"" ",,"SetActive(My Backtrack Button, false);\n{{default}}",,,,,I don't know what you say,I don't know what you say,,1379.772;482.7162
+Alpaca_5_18,5,18,2,4,,,當別人說 Hi， nice to meet you,False,Block,Normal,,,"(Variable[""SpeakContent""] == ""$help"") ",,,,,,,,382.5879;582.0894
+Alpaca_5_19,5,19,2,4,,,你可以回答,False,Block,Normal,,,,,,,,,,,387.7603;659.6757
+Alpaca_5_20,5,20,2,4,,,nice to meet you too,False,Block,Normal,,,,,,,,,,,384.312;737.2618
+Alpaca_5_21,5,21,2,4,,,現在讓我們在試一次吧,False,Block,Normal,,,,,,,,,,,401.5534;806.2274
+Alpaca_5_22,5,22,2,4,,,當別人說 Hi,False,Block,Normal,,,"(Variable[""SpeakContent""] == ""$help"") ",,,,,,,,789.8272;570.6893
+Alpaca_5_23,5,23,2,4,,,你可以回答,False,Block,Normal,,,,,,,,,,,793.2754;648.2756
+Alpaca_5_24,5,24,2,4,,,hello,False,Block,Normal,,,,,,,,,,,789.8271;725.8617
+Alpaca_5_25,5,25,2,4,,,現在讓我們在試一次吧,False,Block,Normal,,,,,,,,,,,805.3444;794.8273
+Alpaca_5_26,5,26,2,4,,,當別人說 How are you?,False,Block,Normal,,,"(Variable[""SpeakContent""] == ""$help"") ",,,,,,,,1245;567.2411
+Alpaca_5_27,5,27,2,4,,,你可以回答,False,Block,Normal,,,,,,,,,,,1250.172;643.1033
+Alpaca_5_28,5,28,2,4,,,I'm good thank you,False,Block,Normal,,,,,,,,,,,1246.724;722.4135
+Alpaca_5_29,5,29,2,4,,,現在讓我們在試一次吧,False,Block,Normal,,,,,,,,,,,1263.965;791.3792
+Sheep_Baby_7_0,7,0,4,4,START,,,False,Block,Normal,,,None(),,,,,,,,284.1789;6.567177
+Alpaca_7_1,7,1,2,4,,,現在讓我們來跟大家做朋友吧!,False,Block,Normal,,,,,,,,现在让我们来跟大家做朋友吧！,現在讓我們來跟大家做朋友吧!,,289.7018;84.91548
+Alpaca_7_2,7,2,2,4,,,如果你能夠成功跟他們當成朋友，說不定他們還會送給你一些禮物呢!,False,Block,Normal,,,,,,,,如果你能够成功跟他们当成朋友，说不定他们还会送给你一些礼物呢！,如果你能夠成功跟他們當成朋友，說不定他們還會送給你一些禮物呢！,,297.1744;149.9094
+Alpaca_7_3,7,3,2,4,,,讓我來教你幾句常用的打招呼的話,False,Block,Normal,,,,,,,,让我来教你几句常用的打招呼的话。,讓我來教你幾句常用的打招呼的話。,,289.8984;214.4081
+Alpaca_7_4,7,4,2,4,,,當別人跟你說 hi，你可以回他 hello,False,Block,Normal,,,"SetPortrait(Alpaca, pic=1);\nSetActive(My Backtrack Button, true);",,,,,当别人跟你说 hi，你可以回他 hello。,當別人跟你說 hi，你可以回他 hello。,,285.4847;284.0563
+Alpaca_7_5,7,5,2,4,,,讓我們來試試看,False,Block,Normal,,,,,,,,让我们来试试看,讓我們來試試看。,,287.48;359.5522
+Alpaca_7_6,7,6,2,4,,,,False,Block,Normal,,,"Rec(""hello"", SpeakContent , heaven heart hello [unk]);\nSetActive(My Backtrack Button, false);\nSetContinueMode(false);",,,,,,,,297.8915;488.2602
+Alpaca_7_7,7,7,2,4,,,,False,Block,Normal,,,SetContinueMode(true);\nContinue(),,,,,,,,299.9602;551.7629
+Alpaca_7_8,7,8,2,4,,,你講得很好!,False,Block,Normal,"(Variable[""SpeakContent""] == ""hello"") ",,"SetPortrait(Alpaca, pic=2);",,,,,你讲得很好！,你講得很好!,,150.6835;639.349
+Alpaca_7_9,7,9,2,4,,,你似乎說得不太對，讓我們再學一次,False,Block,Normal,"(Variable[""SpeakContent""] ~= ""hello"") and (Variable[""SpeakContent""] ~= ""$help"" )",,,,,,,"""你似乎说得不太对，让我们再学一次"" (Simplified Chinese)",你似乎說得不太對，讓我們再學一次。,,475.3524;642.8428
+Alpaca_7_10,7,10,2,4,,,當別人說 How are you? ,False,Block,Normal,,,"SetActive(My Backtrack Button, true);\n{{default}};\nSetPortrait(Alpaca, pic=1);",,,,,当别人说 How are you? 或是 How’s it going?,當別人說 How are you?,,323.4235;714.2056
+Alpaca_7_11,7,11,2,4,,,"你可以回說  I'm good, thank you",False,Block,Normal,,,,,,,,"你可以回说 ""I'm good, thank you"" 或是 ""I'm fine, thank you""。","你可以回說  I'm good, thank you",,330.5347;788.7112
+Alpaca_7_12,7,12,2,4,,,讓我們練習一下,False,Block,Normal,,,,,,,,让我们练习一下。,讓我們練習一下。,,328.3474;908.5058
+Alpaca_7_13,7,13,2,4,,,,False,Block,Normal,,,"Rec(""I'm good thank you"", SpeakContent , I'm good thank you [unk]);\nSetActive(My Backtrack Button, false);\nSetContinueMode(false);",,,,,,,,329.2058;1041.117
+Alpaca_7_14,7,14,2,4,,,,False,Block,Normal,,,SetContinueMode(true);\nContinue(),,,,,,,,327.9539;1110.372
+Alpaca_7_15,7,15,2,4,,,"接下來練習 I'm fine, thank you",False,Block,Normal,,,,,,,,"接下来练习 I'm fine, thank you。","接下來練習 I'm fine, thank you",,365.5955;1402.961
+Alpaca_7_16,7,16,2,4,,,你似乎說得不太對，讓我們再學一次,False,Block,Normal,"(Variable[""SpeakContent""] ~= ""imgoodthankyou"") and (Variable[""SpeakContent""] ~= ""$help"" )",,"SetActive(My Backtrack Button, false);",,,,,"""你似乎说得不太对，让我们再学一次"" (Simplified Chinese)",你似乎說得不太對，讓我們再學一次。,,510.5017;1223.783
+Alpaca_7_17,7,17,2,4,,,,False,Block,Normal,,,"Rec(""I'm fine thank you"", SpeakContent , I'm fine thank you [unk]);\nSetActive(My Backtrack Button, false);\nSetContinueMode(false);",,,,,,,,374.0211;1548.569
+Alpaca_7_18,7,18,2,4,,,,False,Block,Normal,,,SetContinueMode(true);\nContinue(),,,,,,,,368.7501;1625.719
+Alpaca_7_19,7,19,2,4,,,你講得很好，接下來去交些朋友吧~,False,Block,Normal,"Variable[""SpeakContent""] == ""nicetomeetyoutoo""",,"SetActive(My Backtrack Button, false);\nSetPortrait(Alpaca, pic=2);",,,,,你讲得很好，接下来去交些朋友吧~ ,你講得很好，接下來去交些朋友吧~ ,,251.1594;2411.576
+Alpaca_7_20,7,20,2,4,,,你似乎說得不太對，讓我們再學一次,False,Block,Normal,"(Variable[""SpeakContent""] ~= ""imfinethankyou"")  and (Variable[""SpeakContent""] ~= ""$help"" )",,"SetActive(My Backtrack Button, false);",,,,,你似乎说得不太对，让我们再学一次。,你似乎說得不太對，讓我們再學一次。,,508.3871;1711.028
+Sheep_Baby_7_21,7,21,4,2,,,好的，謝謝你的教學,False,Block,Normal,,,"SetActive(My Backtrack Button, true);\n{{default}};\nSetPortrait(Alpaca, pic=1);",,,,,好的，谢谢你的教学。,好的，謝謝你的教學。,,255.4787;2504.982
+Alpaca_7_22,7,22,2,4,,,How are you?,False,Block,Normal,,,,,,,,你好吗？,How are you?,,332.6102;972.0137
+Alpaca_7_23,7,23,2,4,,,hi,False,Block,Normal,,,,,,,,嗨,嗨,,296.5622;423.1259
+Alpaca_7_24,7,24,2,4,,,"I'm good, thank you 是我很好謝謝你的意思",False,Block,Normal,,,,,,,,,我很好，謝謝。,,332.6101;848.7261
+Alpaca_7_26,7,26,2,4,,,還有一種很常見的問候，通常使用於初次見面,False,Block,Normal,"Variable[""SpeakContent""] == ""imfinethankyou""",,"SetActive(My Backtrack Button, false);",,,,,还有一种很常见的问候，通常使用于初次见面。,還有一種很常見的問候，通常使用於初次見面,,245.9533;1715.95
+Alpaca_7_28,7,28,2,4,,,nice to meet you 意思是初次見面，很高興認識你,False,Block,Normal,,,"SetActive(My Backtrack Button, true);\n{{default}}\nSetPortrait(Alpaca, pic=1);",,,,,很高兴认识你的意思是初次见面。,nice to meet you 意思是初次見面，很高興認識你,,353.6676;1817.608
+Alpaca_7_29,7,29,2,4,,,這時候你可以說 nice to meet you too,False,Block,Normal,,,,,,,,这时候你可以说“很高兴认识你”。,這時候你可以說 nice to meet you too,,363.8567;1898.861
+Alpaca_7_30,7,30,2,4,,,意思是我也很高興認識你,False,Block,Normal,,,,,,,,"""意思是我也很高兴认识你""",意思是我也很高興認識你,,368.3152;1974.98
+Alpaca_7_31,7,31,2,4,,,接著讓我們來練習看看吧,False,Block,Normal,,,,,,,,接着让我们来练习看看吧。,接著讓我們來練習看看吧,,369.2748;2055.628
+Alpaca_7_32,7,32,2,4,,,,False,Block,Normal,,,"Rec(""nice to meet you too"", SpeakContent , nice to meet you too [unk]);\nSetActive(My Backtrack Button, false);\nSetContinueMode(false);",,,,,,,,387.834;2242.854
+Alpaca_7_33,7,33,2,4,,,,False,Block,Normal,,,SetContinueMode(true);\nContinue(),,,,,,,,389.6666;2320.426
+Alpaca_7_34,7,34,2,4,,,你似乎說得不太對，讓我們再學一次,False,Block,Normal,"(Variable[""SpeakContent""] ~= ""nicetomeetyoutoo"" ) and (Variable[""SpeakContent""] ~= ""$help"" )",,"SetActive(My Backtrack Button, false);",,,,,"""你似乎说得不太对，让我们再学一次"" (Simplified Chinese)",你似乎說得不太對，讓我們再學一次,,583.4303;2419.022
+Alpaca_7_35,7,35,2,4,,,nice to meet you,False,Block,Normal,,,,,,,,很高兴见到你。,nice to meet you,,376.6029;2153.771
+Alpaca_7_36,7,36,2,4,,,你講得很好!,False,Block,Normal,"Variable[""SpeakContent""] == ""imgoodthankyou""",,"SetPortrait(Alpaca, pic=2);\nSetActive(My Backtrack Button, false);",,,,,你讲得很好！,,,211.5692;1218.226
+Alpaca_7_37,7,37,2,4,,,"你也可以回答I'm fine, thank you",False,Block,Normal,,,"SetPortrait(Alpaca, pic=1);\nSetActive(My Backtrack Button, ftrue);",,,,,,"你也可以回答I'm fine, thank you",,361.8586;1323.377
+Alpaca_7_38,7,38,2,4,,,How are you?,False,Block,Normal,,,,,,,,,,,365.5956;1471.382
+Alpaca_7_39,7,39,2,4,,,好的，我很樂意再說一次,False,Block,Normal,"(Variable[""SpeakContent""] == ""$help"")",,"PlayAd();\nSetPortrait(Alpaca, pic=2);",,,,,,,,667.4063;591.2838
+Alpaca_7_40,7,40,2,4,,,好的，我很樂意再說一次,False,Block,Normal,"(Variable[""SpeakContent""] == ""$help"")",," PlayAd();\nSetPortrait(Alpaca, pic=2);\nSetActive(My Backtrack Button, false);",,,,,,,,743.081;1166.894
+Alpaca_7_41,7,41,2,4,,,當別人說 How are you? ,False,Block,Normal,"(Variable[""SpeakContent""] == ""$help"") ",,"PlayAd()\nSetActive(My Backtrack Button, false);",,,,,,,,731.1459;1627.626
+Alpaca_7_42,7,42,2,4,,,好的，我很樂意再說一次,False,Block,Normal,"(Variable[""SpeakContent""] == ""$help"") ",,"PlayAd();\nSetPortrait(Alpaca, pic=2);\nSetActive(My Backtrack Button, false);",,,,,,,,800.2867;2303.791
+Sheep_Baby_8_0,8,0,4,4,START,,,False,Block,Normal,,,None(),,,,,,,,30;20
+Alpaca_9_0,9,0,2,4,START,,,False,Block,Normal,,,None(),,,,,,,,20;54
+Alpaca_9_1,9,1,2,4,,,"Hi there, Sheep Baby! How are you doing today?",False,Block,Normal,,,,,おはよう、シープベイビー！今日はどうですか？,안녕하세요 스타드라이트라이트! 어떻게 생각해요?,,,,,19;108
+Sheep_Baby_9_2,9,2,4,2,,,"Hi Alpaca! I'm doing pretty well, thanks for asking. How about you?",False,,Normal,,,,,,,,,,,20;162
+Alpaca_9_3,9,3,2,4,,,"I'm doing great, thanks. I was just wondering, have you seen any good grazing spots around here lately?",False,,Normal,,,,,,,,,,,20;216
+Sheep_Baby_9_4,9,4,4,2,,,"Actually, I have! There's a really nice patch of grass just over that hill. Want to come check it out with me?",False,,Normal,,,,,,,,,,,20;270
+Alpaca_9_5,9,5,2,4,,,"Sure, that sounds great! Lead the way, Sheep Baby.",False,,Normal,,,,,,,,,,,20;324
+Sheep_Baby_9_6,9,6,4,2,,,"Follow me, Alpaca! It's just a short walk over this way.",False,,Normal,,,,,,,,,,,20;378
+Alpaca_9_7,9,7,2,4,,,"Wow, this is a really nice spot! Thanks for showing me, Sheep Baby.",False,,Normal,,,,,,,,,,,20;432
+Sheep_Baby_9_8,9,8,4,2,,,"No problem, Alpaca. I'm always happy to help out a friend. Let's enjoy this delicious grass together!",False,,Normal,,,,,,,,,,,20;486
+Alpaca_13_0,13,0,2,4,START,,,False,Block,Normal,,,None(),,,,,,,,368.4536;38.53607
+Alpaca_13_1,13,1,2,4,,,"Hey , 你想學習講水果的英文嗎？",False,Block,Normal,,,,,,,,,,,367.7017;92.53607
+Sheep_Baby_13_2,13,2,4,2,,,好啊！我想學習。,False,Block,Normal,,,,,,,,,,,368.4536;146.5361
+Alpaca_13_3,13,3,2,4,,,那我們開始吧！第一個水果是蘋果,False,Block,Normal,,,,,,,,,,,368.4536;209.3968
+Alpaca_13_5,13,5,2,4,,,香蕉是一種非常營養的水果，它含有豐富的鉀和維生素C,False,Block,Normal,,,"SetActive(My Backtrack Button, true);\nSetPortrait(Alpaca, pic=1);",,,,,,,,349.7988;778.1718
+Sheep_Baby_13_6,13,6,4,2,,,真有趣，那接下來是什麼呢？,False,Block,Normal,,,,,,,,,,,364.5186;1406.024
+Alpaca_13_7,13,7,2,4,,,接下來是葡萄,False,Block,Normal,,,,,,,,,,,364.5185;1483.312
+Sheep_Baby_13_8,13,8,4,2,,,哇，好有趣！那還有其他的水果嗎？,False,Block,Normal,,,,,,,,,,,363.4561;2089.964
+Alpaca_13_9,13,9,2,4,,,還有很多呢！比如橘子,False,Block,Normal,,,,,,,,,,,362.074;2165.406
+Sheep_Baby_13_10,13,10,4,2,,,好棒啊！我學到了很多新知識。,False,Block,Normal,,,,,,,,,,,336.9712;3338.873
+Alpaca_13_11,13,11,2,4,,,沒錯！學習英文也可以很有趣。下次我們再學習其他的水果吧！,False,,Normal,,,,,,,,,,,336.9712;3392.874
+Sheep_Baby_13_12,13,12,4,2,,,好的！謝謝你的教學。,False,,Normal,,,,,,,,,,,336.9712;3446.874
+Alpaca_13_13,13,13,2,4,,,蘋果是一種非常常見的水果，它可以生吃也可以做成很多美味的料理，比如蘋果派和蘋果汁。,False,Block,Normal,,,"SetPortrait(Alpaca, pic=1);",,,,,,,,369.7194;264.4602
+Alpaca_13_14,13,14,2,4,,,他的英文是 apple,False,Block,Normal,,,,,,,,,,,369.7194;320.0846
+Alpaca_13_15,13,15,2,4,,,你試試看,False,Block,Normal,,,,,,,,,,,366.0688;394.6325
+Alpaca_13_42,13,42,2,4,,,,False,Block,Normal,,,"Rec(""apple"", SpeakContent , apple  [unk]);\nSetActive(My Backtrack Button, false);\nSetContinueMode(false);",,,,,,,,367.6973;485.3269
+Alpaca_13_43,13,43,2,4,,,,False,Block,Normal,,,SetContinueMode(true);\nContinue(),,,,,,,,363.1398;573.062
+Alpaca_13_44,13,44,2,4,,,你似乎說得不太對，讓我們再學一次,False,Block,Normal,"(Variable[""SpeakContent""] ~= ""apple"")  and (Variable[""SpeakContent""] ~= ""$help"" )",,"SetActive(My Backtrack Button, false);",,,,,你似乎说得不太对，让我们再学一次。,你似乎說得不太對，讓我們再學一次。,,503.3289;661.2275
+Alpaca_13_45,13,45,2,4,,,沒錯 你說得真好,False,Block,Normal,"Variable[""SpeakContent""] == ""apple""",,"SetActive(My Backtrack Button, false);\nSetPortrait(Alpaca, pic=2);",,,,,,沒錯 你說得真好,,235.0666;650.2281
+Alpaca_13_46,13,46,2,4,,,好的，我很樂意再說一次,False,Block,Normal,"(Variable[""SpeakContent""] == ""$help"") ",,"PlayAd();\nSetPortrait(Alpaca, pic=2);\nSetActive(My Backtrack Button, false);",,,,,,,,726.8015;573.1508
+Alpaca_13_47,13,47,2,4,,,可以幫助我們保持健康，而且它也是很多人的早餐必備食品,False,Block,Normal,,,,,,,,,,,358.8649;835.4944
+Alpaca_13_48,13,48,2,4,,,,False,Block,Normal,,,"Rec(""banana"", SpeakContent , banana [unk]);\nSetActive(My Backtrack Button, false);\nSetContinueMode(false);",,,,,,,,357.8726;1100.394
+Alpaca_13_49,13,49,2,4,,,,False,Block,Normal,,,SetContinueMode(true);\nContinue(),,,,,,,,352.9273;1177.544
+Alpaca_13_50,13,50,2,4,,,你似乎說得不太對，讓我們再學一次,False,Block,Normal,"(Variable[""SpeakContent""] ~= ""banana"")  and (Variable[""SpeakContent""] ~= ""$help"" )",,"SetActive(My Backtrack Button, false);",,,,,你似乎说得不太对，让我们再学一次。,你似乎說得不太對，讓我們再學一次,,509.1068;1276.683
+Alpaca_13_51,13,51,2,4,,,沒錯 你說得真好,False,Block,Normal,"Variable[""SpeakContent""] == ""banana""",,"SetActive(My Backtrack Button, false);\nSetPortrait(Alpaca, pic=2);",,,,,沒錯 你說得真好,沒錯 你說得真好,,233.9568;1284.193
+Alpaca_13_52,13,52,2,4,,,好的，我很樂意再說一次,False,Block,Normal,"(Variable[""SpeakContent""] == ""$help"") ",,"PlayAd();\nSetPortrait(Alpaca, pic=2);\nSetActive(My Backtrack Button, false);",,,,,,,,717.1414;1179.451
+Alpaca_13_53,13,53,2,4,,,香蕉的英文是 banana,False,Block,Normal,,,,,,,,,,,357.0467;903.6762
+Alpaca_13_54,13,54,2,4,,,換你說一次試試看,False,Block,Normal,,,,,,,,,,,351.5921;997.3127
+Alpaca_13_55,13,55,2,4,,,下一個是香蕉,False,Block,Normal,,,,,,,,,,,352.597;720.0924
+Alpaca_13_56,13,56,2,4,,,葡萄是一種非常美味的水果，它可以生吃也可以做成葡萄酒和葡萄乾,False,Block,Normal,,,"SetPortrait(Alpaca, pic=1);",,,,,,,,365.8884;1557.969
+Alpaca_13_57,13,57,2,4,,,而且，葡萄還有很多種顏色，比如紅色、綠色和黑色。,False,Block,Normal,,,,,,,,,,,365.8884;1628.463
+Alpaca_13_58,13,58,2,4,,,,False,Block,Normal,,,"Rec(""grape"", SpeakContent , grape shape  gap  [unk]);\nSetActive(My Backtrack Button, false);\nSetContinueMode(false);",,,,,,,,359.1231;1819.634
+Alpaca_13_59,13,59,2,4,,,,False,Block,Normal,,,SetContinueMode(true);\nContinue(),,,,,,,,361.7648;1901.702
+Alpaca_13_60,13,60,2,4,,,你似乎說得不太對，讓我們再學一次,False,Block,Normal,"(Variable[""SpeakContent""] ~= ""grape"")  and (Variable[""SpeakContent""] ~= ""$help"" )",,"SetActive(My Backtrack Button, false);",,,,,你似乎说得不太对，让我们再学一次。,你似乎說得不太對，讓我們再學一次,,521.0121;1999.349
+Alpaca_13_61,13,61,2,4,,,沒錯 你說得真好,False,Block,Normal,"Variable[""SpeakContent""] == ""grape""",,"SetActive(My Backtrack Button, false);\nSetPortrait(Alpaca, pic=2);",,,,,沒錯 你說得真好,沒錯 你說得真好,,233.6923;1991.933
+Alpaca_13_62,13,62,2,4,,,好的，我很樂意再說一次,False,Block,Normal,"(Variable[""SpeakContent""] == ""$help"") ",,"PlayAd();\nSetPortrait(Alpaca, pic=2);\nSetActive(My Backtrack Button, false);",,,,,,,,727.2947;1903.609
+Alpaca_13_63,13,63,2,4,,,葡萄的英文是 grape,False,Block,Normal,,,,,,,,,,,364.249;1693.217
+Alpaca_13_64,13,64,2,4,,,現在換你來試試看,False,Block,Normal,,,,,,,,,,,362.6097;1757.971
+Alpaca_13_65,13,65,2,4,,,橘子是一種富含維生素C的水果，可以幫助我們增強免疫力,False,Block,Normal,,,"SetPortrait(Alpaca, pic=1);",,,,,,,,365.3437;2229.969
+Alpaca_13_66,13,66,2,4,,,還有草莓,False,Block,Normal,,,,,,,,,,,350.9594;2740.846
+Alpaca_13_67,13,67,2,4,,,橘子的英文是 orange,False,Block,Normal,,,,,,,,,,,367.8125;2319.346
+Alpaca_13_68,13,68,2,4,,,現在換你試試看,False,Block,Normal,,,,,,,,,,,369.6307;2387.907
+Alpaca_13_69,13,69,2,4,,,,False,Block,Normal,,,"Rec(""orange"", SpeakContent , orange arrange  storage  [unk]);\nSetActive(My Backtrack Button, false);\nSetContinueMode(false);",,,,,,,,371.3725;2481.277
+Alpaca_13_70,13,70,2,4,,,,False,Block,Normal,,,SetContinueMode(true);\nContinue(),,,,,,,,372.8378;2562.126
+Alpaca_13_71,13,71,2,4,,,你似乎說得不太對，讓我們再學一次,False,Block,Normal,"(Variable[""SpeakContent""] ~= ""orange"")  and (Variable[""SpeakContent""] ~= ""$help"" )",,"SetActive(My Backtrack Button, false);",,,,,你似乎说得不太对，让我们再学一次。,你似乎說得不太對，讓我們再學一次,,530.6566;2659.772
+Alpaca_13_72,13,72,2,4,,,沒錯 你說得真好 我很喜歡吃橘子呢,False,Block,Normal,"Variable[""SpeakContent""] == ""orange""",,"SetActive(My Backtrack Button, false);\nSetPortrait(Alpaca, pic=2);",,,,,沒錯 你說得真好,沒錯 你說得真好,,244.7653;2652.357
+Alpaca_13_73,13,73,2,4,,,好的，我很樂意再說一次,False,Block,Normal,"(Variable[""SpeakContent""] == ""$help"") ",,"PlayAd();\nSetPortrait(Alpaca, pic=2);\nSetActive(My Backtrack Button, false);",,,,,,,,737.0518;2564.033
+Alpaca_13_74,13,74,2,4,,,草莓是一種非常甜美的水果，可以做成很多甜點，比如草莓蛋糕和草莓冰淇淋。,False,Block,Normal,,,"SetPortrait(Alpaca, pic=1);",,,,,,,,353.9444;2828.159
+Alpaca_13_75,13,75,2,4,,,他的英文是 strawberry,False,Block,Normal,,,,,,,,,,,355.437;2910.995
+Alpaca_13_76,13,76,2,4,,,今天學了很多水果,False,Block,Normal,,,,,,,,,,,333.1115;3269.548
+Alpaca_13_77,13,77,2,4,,,,False,Block,Normal,,,"Rec(""strawberry"", SpeakContent , strawberry arrange  storage  [unk]);\nSetActive(My Backtrack Button, false);\nSetContinueMode(false);",,,,,,,,353.5246;3008.76
+Alpaca_13_78,13,78,2,4,,,,False,Block,Normal,,,SetContinueMode(true);\nContinue(),,,,,,,,354.9899;3090.829
+Alpaca_13_79,13,79,2,4,,,你似乎說得不太對，讓我們再學一次,False,Block,Normal,"(Variable[""SpeakContent""] ~= ""strawberry"")  and (Variable[""SpeakContent""] ~= ""$help"" )",,"SetActive(My Backtrack Button, false);",,,,,你似乎说得不太对，让我们再学一次。,你似乎說得不太對，讓我們再學一次,,514.1786;3185.827
+Alpaca_13_80,13,80,2,4,,,沒錯 你說得真好,False,Block,Normal,"Variable[""SpeakContent""] == ""strawberry""",,"SetActive(My Backtrack Button, false);\nSetPortrait(Alpaca, pic=2);",,,,,沒錯 你說得真好,沒錯 你說得真好,,226.9174;3179.84
+Alpaca_13_81,13,81,2,4,,,好的，我很樂意再說一次,False,Block,Normal,"(Variable[""SpeakContent""] == ""$help"") ",,"PlayAd();\nSetPortrait(Alpaca, pic=2);\nSetActive(My Backtrack Button, false);",,,,,,,,719.204;3091.516
+Alpaca_14_0,14,0,2,4,START,,,False,Block,Normal,,,None(),,,,,,,,20;54
+Alpaca_14_1,14,1,2,4,,,"Hey Sheep Baby, 你想學習講水果的英文嗎？",False,Block,Normal,,,,,,,,,,,485.4543;182.5454
+Sheep_Baby_14_2,14,2,4,2,,,好啊！我想學習。,False,Block,Normal,,,,,,,,,,,332.7271;285.6363
+Alpaca_14_3,14,3,2,4,,,那我們開始吧！第一個水果是蘋果，英文是apple。蘋果是一種非常常見的水果，它可以生吃也可以做成很多美味的料理，比如蘋果派和蘋果汁。,False,,Normal,,,,,,,,,,,20;216
+Sheep_Baby_14_4,14,4,4,2,,,原來如此！那下一個是什麼？,False,,Normal,,,,,,,,,,,20;270
+Alpaca_14_5,14,5,2,4,,,下一個是香蕉，英文是banana。香蕉是一種非常營養的水果，它含有豐富的鉀和維生素C，可以幫助我們保持健康。而且，它也是很多人的早餐必備食品，比如香蕉片和香蕉麵包。,False,,Normal,,,,,,,,,,,20;324
+Sheep_Baby_14_6,14,6,4,2,,,好厲害！那接下來呢？,False,,Normal,,,,,,,,,,,20;378
+Alpaca_14_7,14,7,2,4,,,接下來是葡萄，英文是grape。葡萄是一種非常美味的水果，它可以生吃也可以做成葡萄酒和葡萄乾。而且，葡萄還有很多種顏色，比如紅色、綠色和黑色。,False,,Normal,,,,,,,,,,,20;432
+Sheep_Baby_14_8,14,8,4,2,,,哇，好有趣！那還有其他的水果嗎？,False,,Normal,,,,,,,,,,,20;486
+Alpaca_14_9,14,9,2,4,,,還有很多呢！比如橘子，英文是orange。橘子是一種富含維生素C的水果，可以幫助我們增強免疫力。還有草莓，英文是strawberry。草莓是一種非常甜美的水果，可以做成很多甜點，比如草莓蛋糕和草莓冰淇淋。,False,,Normal,,,,,,,,,,,20;540
+Sheep_Baby_14_10,14,10,4,2,,,好棒啊！我學到了很多新知識。,False,,Normal,,,,,,,,,,,20;594
+Alpaca_14_11,14,11,2,4,,,沒錯！學習英文也可以很有趣。下次我們再學習其他的水果吧！,False,,Normal,,,,,,,,,,,20;648
+Sheep_Baby_14_12,14,12,4,2,,,好的！謝謝你的教學。,False,,Normal,,,,,,,,,,,20;702
+Alpaca_14_13,14,13,2,4,,,,False,Block,Normal,,,,,,,,,,,509.0907;350.1818
+Black_Boar_15_0,15,0,3,4,START,,,False,Block,Normal,,,None(),,,,,,,,941.7612;2.428574
+Black_Boar_15_1,15,1,3,4,,,你知道蘋果的英文是什麼嗎?,False,Block,Normal,x == 1,,,,,,,"Hi, nice to meet you",你知道蘋果的英文是什麼嗎?,,386.909;261.4552
+Black_Boar_15_2,15,2,3,4,,,,False,Block,Normal,,,"Rec(""apple"", SpeakContent , apple raffle grapple  [unk]);\nSetActive(My Backtrack Button, false);\nSetContinueMode(false);",,,,,,,,379.6128;329.8825
+Black_Boar_15_3,15,3,3,4,,,,False,Block,Normal,,,SetContinueMode(true);\nContinue(),,,,,,,,372.243;397.6067
+Black_Boar_15_4,15,4,3,4,,,你說得沒錯,False,Block,Normal,"Variable[""SpeakContent""] == ""apple""",,"MinusLife(speaker);\nSetActive(My Backtrack Button, false);\nSetPortrait(Alpaca, pic=2);",,,,,你說得沒錯,你說得沒錯,,261.3116;477.5474
+Black_Boar_15_5,15,5,3,4,,,你好像說得不太對哦,False,Block,Normal,"Variable[""SpeakContent""] ~= ""apple"" and Variable[""SpeakContent""] ~= ""$help"" ",,"SetActive(My Backtrack Button, false);\n{{default}}",,,,,I don't know what you say,你好像說得不太對哦,,497.9861;493.4459
+Black_Boar_15_6,15,6,3,4,,,,False,Block,Normal,	,x=math.random(4),Continue(),,,,,,,,939.3862;90.46855
+Black_Boar_15_7,15,7,3,4,,,,False,Block,Normal,,,None(),,,,,,,,939.3221;149.1266
+Black_Boar_15_8,15,8,3,4,,,你知道香蕉的英文是什麼嗎?,False,Block,Normal,x == 2,,,,,,,Hi,你知道香蕉的英文是什麼嗎?,,807.9965;249.4947
+Black_Boar_15_9,15,9,3,4,,,,False,Block,Normal,,,"Rec(""banana"", SpeakContent , banana bandana manana  [unk]);\nSetActive(My Backtrack Button, false);\nSetContinueMode(false);",,,,,,,,794.2089;341.0237
+Black_Boar_15_10,15,10,3,4,,,,False,Block,Normal,,,SetContinueMode(true);\nContinue(),,,,,,,,788.2089;405.8473
+Black_Boar_15_11,15,11,3,4,,,你說得沒錯 香蕉是一種很好吃的食物,False,Block,Normal,"Variable[""SpeakContent""] == ""banana""",,"MinusLife(speaker);\nSetActive(My Backtrack Button, false);\nSetPortrait(Alpaca, pic=2);",,,,,你說得沒錯 橘子是一種很好吃的食物,你說得沒錯 橘子是一種很好吃的食物,,683.6353;481.9115
+Black_Boar_15_12,15,12,3,4,,,你好像說得不太對哦,False,Block,Normal,"Variable[""SpeakContent""] ~= ""banana"" and Variable[""SpeakContent""] ~= ""$help"" ",,"SetActive(My Backtrack Button, false);\n{{default}}",,,,,I don't know what you say,你好像說得不太對哦,,934.7554;484.3535
+Black_Boar_15_13,15,13,3,4,,,你知道草莓的英文是什麼嗎?,False,Block,Normal,x == 3,,,,,,,How are you?,你知道草莓的英文是什麼嗎?,,1240.274;248.5965
+Black_Boar_15_14,15,14,3,4,,,,False,Block,Normal,,,"Rec(""strawberry"", SpeakContent , strawberry  [unk]);\nSetActive(My Backtrack Button, false);\nSetContinueMode(false);",,,,,,,,1244.511;339.4967
+Black_Boar_15_15,15,15,3,4,,,,False,Block,Normal,,,SetContinueMode(true);\nContinue(),,,,,,,,1234.132;402.0484
+Black_Boar_15_16,15,16,3,4,,,你講得真好,False,Block,Normal,"Variable[""SpeakContent""] == ""strawberry""",,"MinusLife(speaker);\nSetActive(My Backtrack Button, false);\nSetPortrait(Alpaca, pic=2);",,,,,你講得真好,你講得真好,,1142.632;469.8173
+Black_Boar_15_17,15,17,3,4,,,你好像說得不太對哦,False,Block,Normal,"Variable[""SpeakContent""] ~= ""strawberry"" and Variable[""SpeakContent""] ~= ""$help"" ",,"SetActive(My Backtrack Button, false);\n{{default}}",,,,,I don't know what you say,你好像說得不太對哦,,1380.908;480.21
+Alpaca_15_18,15,18,2,4,,,蘋果的英文是,False,Block,Normal,"(Variable[""SpeakContent""] == ""$help"") ",,PlayAd();,,,,,,,,373.2924;575.3748
+Alpaca_15_19,15,19,2,4,,,apple,False,Block,Normal,,,,,,,,,,,361.8779;658.4992
+Alpaca_15_20,15,20,2,4,,,蘋果是一種非常常見的水果，它可以生吃也可以做成很多美味的料理，比如蘋果派和蘋果汁。,False,Block,Normal,,,,,,,,,,,385.4884;737.2618
+Alpaca_15_21,15,21,2,4,,,現在讓我們在試一次吧,False,Block,Normal,,,,,,,,,現在讓我們在試一次吧,,401.5534;806.2274
+Alpaca_15_22,15,22,2,4,,,香蕉的英文是,False,Block,Normal,"(Variable[""SpeakContent""] == ""$help"") ",,PlayAd();,,,,,,,,788.6508;570.6893
+Alpaca_15_23,15,23,2,4,,,banana,False,Block,Normal,,,,,,,,,,,793.2754;649.4521
+Alpaca_15_24,15,24,2,4,,,香蕉是一種非常營養的水果，它含有豐富的鉀和維生素C,False,Block,Normal,,,,,,,,,香蕉是一種非常營養的水果，它含有豐富的鉀和維生素C,,779.2389;721.1558
+Alpaca_15_25,15,25,2,4,,,現在讓我們在試一次吧,False,Block,Normal,,,,,,,,,現在讓我們在試一次吧,,806.5639;795.8582
+Alpaca_15_26,15,26,2,4,,,當別人說 How are you?,False,Block,Normal,"(Variable[""SpeakContent""] == ""$help"") ",,PlayAd();,,,,,,,,1245;567.2411
+Alpaca_15_27,15,27,2,4,,,你可以回答,False,Block,Normal,,,,,,,,,,,1250.172;643.1033
+Alpaca_15_28,15,28,2,4,,,I'm good thank you,False,Block,Normal,,,,,,,,,,,1246.724;722.4135
+Alpaca_15_29,15,29,2,4,,,現在讓我們在試一次吧,False,Block,Normal,,,,,,,,,現在讓我們在試一次吧,,1262.788;791.3792
+Black_Boar_15_30,15,30,3,4,,,你知道葡萄的英文是什麼嗎?,False,Block,Normal,x == 4,,,,,,,How are you?,你知道葡萄的英文是什麼嗎?,,1689.17;267.4534
+Black_Boar_15_31,15,31,3,4,,,,False,Block,Normal,,,"Rec(""grape"", SpeakContent , grape shape  gap  [unk]);\nSetActive(My Backtrack Button, false);\nSetContinueMode(false);",,,,,,,,1688.315;360.8999
+Black_Boar_15_32,15,32,3,4,,,,False,Block,Normal,,,SetContinueMode(true);\nContinue(),,,,,,,,1679.113;423.4517
+Black_Boar_15_33,15,33,3,4,,,你說得沒錯,False,Block,Normal,"Variable[""SpeakContent""] == ""grape""",,"MinusLife(speaker);\nSetActive(My Backtrack Button, false);\nSetPortrait(Alpaca, pic=2);",,,,,你說得沒錯,你說得沒錯,,1582.968;503.4157
+Black_Boar_15_34,15,34,3,4,,,你好像說得不太對哦,False,Block,Normal,"Variable[""SpeakContent""] ~= ""grape"" and Variable[""SpeakContent""] ~= ""$help"" ",,"SetActive(My Backtrack Button, false);\n{{default}}",,,,,I don't know what you say,你好像說得不太對哦,,1824.752;504.1195
+Alpaca_15_35,15,35,2,4,,,葡萄的英文是,False,Block,Normal,"(Variable[""SpeakContent""] == ""$help"") ",,PlayAd();,,,,,,葡萄的英文是,,1689.98;588.6444
+Alpaca_15_36,15,36,2,4,,,grape,False,Block,Normal,,,,,,,,,,,1695.152;664.5066
+Alpaca_15_37,15,37,2,4,,,葡萄是一種非常美味的水果，它可以生吃也可以做成葡萄酒和葡萄乾,False,Block,Normal,,,,,,,,,葡萄是一種非常美味的水果，它可以生吃也可以做成葡萄酒和葡萄乾,,1691.704;743.8168
+Alpaca_15_38,15,38,2,4,,,現在讓我們在試一次吧,False,Block,Normal,,,,,,,,,現在讓我們在試一次吧,,1708.945;814.0019
+Black_Boar_15_39,15,39,3,4,,,我們下次再見,False,Block,Normal,,,,,,,,,我們下次再見,,261.3116;527.5474
+Black_Boar_15_40,15,40,3,4,,,我們下次再見,False,Block,Normal,,,,,,,,,我們下次再見,,689.1147;526.432
+Black_Boar_15_41,15,41,3,4,,,我們下次再見,False,Block,Normal,,,,,,,,,我們下次再見,,1142.632;519.8173
+Black_Boar_15_42,15,42,3,4,,,我們下次再見,False,Block,Normal,,,,,,,,,我們下次再見,,1582.968;553.4156
+OutgoingLinks
+OriginConvID,OriginID,DestConvID,DestID,ConditionPriority
+Number,Number,Number,Number,Special
+1,0,1,1,Normal
+1,1,1,2,Normal
+1,2,1,3,Normal
+1,3,1,4,Normal
+1,3,1,6,Normal
+1,4,1,5,Normal
+2,0,2,1,Normal
+2,1,2,2,Normal
+2,2,2,9,Normal
+2,3,2,4,Normal
+2,4,2,5,Normal
+2,5,2,6,Normal
+2,5,2,7,Normal
+2,5,2,12,Normal
+2,6,2,8,Normal
+2,7,2,3,Normal
+2,9,2,10,Normal
+2,10,2,11,Normal
+2,11,2,3,Normal
+2,12,2,9,Normal
+4,0,4,1,Normal
+4,1,4,2,Normal
+5,0,5,6,Normal
+5,1,5,2,Normal
+5,2,5,3,Normal
+5,3,5,4,Normal
+5,3,5,5,Normal
+5,3,5,18,Normal
+5,6,5,7,Normal
+5,7,5,1,Normal
+5,7,5,8,Normal
+5,7,5,13,Normal
+5,8,5,9,Normal
+5,9,5,10,Normal
+5,10,5,11,Normal
+5,10,5,12,Normal
+5,10,5,22,Normal
+5,13,5,14,Normal
+5,14,5,15,Normal
+5,15,5,16,Normal
+5,15,5,17,Normal
+5,15,5,26,Normal
+5,18,5,19,Normal
+5,19,5,20,Normal
+5,20,5,21,Normal
+5,21,5,1,Normal
+5,22,5,23,Normal
+5,23,5,24,Normal
+5,24,5,25,Normal
+5,25,5,8,Normal
+5,26,5,27,Normal
+5,27,5,28,Normal
+5,28,5,29,Normal
+5,29,5,13,Normal
+7,0,7,1,Normal
+7,1,7,2,Normal
+7,2,7,3,Normal
+7,3,7,4,Normal
+7,4,7,5,Normal
+7,5,7,23,Normal
+7,6,7,7,Normal
+7,7,7,8,Normal
+7,7,7,9,Normal
+7,7,7,39,Normal
+7,8,7,10,Normal
+7,9,7,4,Normal
+7,10,7,11,Normal
+7,11,7,24,Normal
+7,12,7,22,Normal
+7,13,7,14,Normal
+7,14,7,16,Normal
+7,14,7,36,Normal
+7,14,7,40,Normal
+7,15,7,38,Normal
+7,16,7,10,Normal
+7,17,7,18,Normal
+7,18,7,20,Normal
+7,18,7,26,Normal
+7,18,7,41,Normal
+7,19,7,21,Normal
+7,20,7,15,Normal
+7,22,7,13,Normal
+7,23,7,6,Normal
+7,24,7,12,Normal
+7,26,7,28,Normal
+7,28,7,29,Normal
+7,29,7,30,Normal
+7,30,7,31,Normal
+7,31,7,35,Normal
+7,32,7,33,Normal
+7,33,7,19,Normal
+7,33,7,34,Normal
+7,33,7,42,Normal
+7,34,7,35,Normal
+7,35,7,32,Normal
+7,36,7,37,Normal
+7,37,7,15,Normal
+7,38,7,17,Normal
+7,39,7,4,Normal
+7,40,7,10,Normal
+7,41,7,37,Normal
+7,42,7,28,Normal
+9,0,9,1,Normal
+9,1,9,2,Normal
+9,2,9,3,Normal
+9,3,9,4,Normal
+9,4,9,5,Normal
+9,5,9,6,Normal
+9,6,9,7,Normal
+9,7,9,8,Normal
+13,0,13,1,Normal
+13,1,13,2,Normal
+13,2,13,3,Normal
+13,3,13,13,Normal
+13,5,13,47,Normal
+13,6,13,7,Normal
+13,7,13,56,Normal
+13,8,13,9,Normal
+13,9,13,65,Normal
+13,10,13,11,Normal
+13,11,13,12,Normal
+13,13,13,14,Normal
+13,14,13,15,Normal
+13,15,13,42,Normal
+13,42,13,43,Normal
+13,43,13,44,Normal
+13,43,13,45,Normal
+13,43,13,46,Normal
+13,44,13,13,Normal
+13,45,13,55,Normal
+13,46,13,13,Normal
+13,47,13,53,Normal
+13,48,13,49,Normal
+13,49,13,50,Normal
+13,49,13,51,Normal
+13,49,13,52,Normal
+13,50,13,53,Normal
+13,51,13,6,Normal
+13,52,13,5,Normal
+13,53,13,54,Normal
+13,54,13,48,Normal
+13,55,13,5,Normal
+13,56,13,57,Normal
+13,57,13,63,Normal
+13,58,13,59,Normal
+13,59,13,60,Normal
+13,59,13,61,Normal
+13,59,13,62,Normal
+13,60,13,63,Normal
+13,61,13,8,Normal
+13,62,13,56,Normal
+13,63,13,64,Normal
+13,64,13,58,Normal
+13,65,13,67,Normal
+13,66,13,74,Normal
+13,67,13,68,Normal
+13,68,13,69,Normal
+13,69,13,70,Normal
+13,70,13,71,Normal
+13,70,13,72,Normal
+13,70,13,73,Normal
+13,71,13,67,Normal
+13,72,13,66,Normal
+13,73,13,65,Normal
+13,74,13,75,Normal
+13,75,13,77,Normal
+13,76,13,10,Normal
+13,77,13,78,Normal
+13,78,13,79,Normal
+13,78,13,80,Normal
+13,78,13,81,Normal
+13,79,13,74,Normal
+13,80,13,76,Normal
+13,81,13,74,Normal
+14,0,14,1,Normal
+14,1,14,2,Normal
+14,2,14,3,Normal
+14,2,14,13,Normal
+14,3,14,4,Normal
+14,4,14,5,Normal
+14,5,14,6,Normal
+14,6,14,7,Normal
+14,7,14,8,Normal
+14,8,14,9,Normal
+14,9,14,10,Normal
+14,10,14,11,Normal
+14,11,14,12,Normal
+15,0,15,6,Normal
+15,1,15,2,Normal
+15,2,15,3,Normal
+15,3,15,4,Normal
+15,3,15,5,Normal
+15,3,15,18,Normal
+15,4,15,39,Normal
+15,6,15,7,Normal
+15,7,15,1,Normal
+15,7,15,8,Normal
+15,7,15,13,Normal
+15,7,15,30,Normal
+15,8,15,9,Normal
+15,9,15,10,Normal
+15,10,15,11,Normal
+15,10,15,12,Normal
+15,10,15,22,Normal
+15,11,15,40,Normal
+15,13,15,14,Normal
+15,14,15,15,Normal
+15,15,15,16,Normal
+15,15,15,17,Normal
+15,15,15,26,Normal
+15,16,15,41,Normal
+15,18,15,19,Normal
+15,19,15,20,Normal
+15,20,15,21,Normal
+15,21,15,1,Normal
+15,22,15,23,Normal
+15,23,15,24,Normal
+15,24,15,25,Normal
+15,25,15,8,Normal
+15,26,15,27,Normal
+15,27,15,28,Normal
+15,28,15,29,Normal
+15,29,15,13,Normal
+15,30,15,31,Normal
+15,31,15,32,Normal
+15,32,15,33,Normal
+15,32,15,34,Normal
+15,32,15,35,Normal
+15,33,15,42,Normal
+15,35,15,36,Normal
+15,36,15,37,Normal
+15,37,15,38,Normal
+15,38,15,30,Normal
